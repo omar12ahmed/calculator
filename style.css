@@ -1,0 +1,92 @@
+.container{
+
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border: solid 5px black;
+    gap:10px;
+    
+    
+}
+button{
+    width: 50%;
+    border: none;
+    margin: 4px;
+    padding: 15px;
+    
+}
+.small{
+    width: 50%;
+    border-radius: 60%;
+    padding:20px;
+}
+
+.zero{
+    grid-area: 5/-5;
+    grid-column-start: -5;
+    width: 100%;
+    grid-column-end: -3;
+}
+.zeror{
+    border:none;
+    border-radius: 2em;
+}
+.btn{
+    width:70%;
+}
+.button{
+    border: black;
+}
+
+.dot{
+    grid-area: 5/-3;
+    border-radius: 60%;
+    
+}
+
+.clear{
+    background-color: grey;
+    color: white;
+    
+}
+
+.equals{
+    grid-area: 5/-2;
+    border-radius: 50px;
+   
+    
+}
+.display{
+    width: auto;
+    height: auto;
+    color: black;
+    border: solid 5px grey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: beige;
+}
+.box{
+    border: solid 2px black;
+    width: 20%;
+    height: 20px;
+}
+
+.numberInBox{
+    margin-left: 1rem;
+}
+.operators{
+background-color: orange;
+    grid-column: 4;
+    color: white;
+
+}
+
+.highlighted{
+    border:2px solid greenyellow;
+}
