@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div>
-    <input id="a" type="number"/>
-    <input id="b" type="number"/>
-</div>
+    <main>
+        <header>
+            <h1 class="title">Calculator project</h1>
+        </header>
+        <div class="container">
+            <div class="display">
+                <div class="input inputField1 box" id="field1"></div>
+                <div class="input inputField2 box" id="field2"></div>
+                <div class="results box" id="results"></div>
+            </div>
+            <div class="buttons">
+                <div><button class="small clear" id="clearAll">ac</button></div>
+                <div><button class="small clear" id="clearOne"> C</button></div>
+                <div><button class="small rem operators" id="rem">%</button></div>
+                <div><button class="small operators">/</button></div>
+                <div><button class="small seven num" id="seven">7</button></div>
+                <div><button class="small eight num" id="eight">8</button></div>
+                <div><button class="small nine num" id="nine">9</button></div>
+                <div><button class="small subtract operators" id="subtract">-</button></div>
+                <div><button class="small four num" id="four">4</button></div>
+                <div><button class="small five num" id="five">5</button></div>
+                <div><button class="small six num" id="six">6</button></div>
+                <div><button class="small multiply operators" id="multiply">*</button></div>
+                <div><button class="small one num" id="one">1</button></div>
+                <div><button class="small two num" id="two">2</button></div>
+                <div><button class="small three num" id="three">3</button></div>
+                <div><button class="small add operators" id="add">+</button></div>
+                <div class="zero num" id="zero"><button class="zeror btn" id="zero">0</button></div>
+                <div><button class="small dot" id="Dot">.</button></div>
+                <div><button class="small equals " id="equals">=</button></div>
 
-<div class="buttons">
-    <button id="add">+</button>
-    <button id="subtract">-</button>
-    <button id="divide">/</button>
-    <button id="multiply">*</button>
-    <button id="rem">%</button>
-</div>
-
-<h1 id="results"></h1>
-    
+            </div>
+        </div>
+    </main>
 </body>
-<script src="calculator.js"></script>
+<script src="app.js"></script>
+
 </html>
-
-
-
-
-<script>
-    total=0
-    let numbers =[1,2,3,4,5]
-numbers.forEach(plus)
-
-
-function myfunction (number) {
-    total+=number;
-}
-
-for(let i =0;  i<numbers.length; i++)
-{
-    total+=numbers[i];
-
-}
-
-numbers.forEach(()=>{
-
-})
-
-numbers.forEach(myFunction)
-
-</script>
