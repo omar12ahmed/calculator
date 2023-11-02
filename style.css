@@ -109,3 +109,105 @@ background-color: orange;
 .highlighted{
     border:2px solid greenyellow;
 }
+/* Small screens (mobile phones) */
+@media screen and (max-width:375px){
+    .container{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+
+@media screen and (max-width:375px){
+    .display{
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+
+@media screen and (max-width:375px){
+    .title{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-size: 30px;
+        text-decoration: underline;
+    }  
+}
+/* Medium screens (tablets) */
+
+@media screen and (min-width:376px) and (max-width:1024px){
+    .container{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+
+@media screen and (min-width:375px)and (max-width:1024px){
+    .display{
+        width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+
+@media screen and (min-width:375px)and (max-width:1024px){
+    .title{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        text-decoration: underline;
+    }  
+}
+
+/* large screens (desktops and laptops) */
+@media screen and (min-width:1025px)and (max-width:1440px){
+    .container{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }  
+}
+
+@media screen and (min-width:1025px)and (max-width:1440px){
+    .display{
+        width: 930px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+
+@media screen and (min-width:1025px)and (max-width:1440px){
+    .title{
+        margin-top: 20px;
+        font-size: 50px;
+        text-decoration: underline;
+    }  
+}
+/* Extra large screens (widescreen monitors) */
+@media screen and (min-width:1441px){
+    .container{
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }  
+}
+
+@media screen and (min-width:1441px){
+    .display{
+        width: 1028px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
+
+@media screen and (min-width:1441px){
+    .title{
+        margin-top: 30px;
+        font-size: 70px;
+        text-decoration: underline;
+    }  
+}
