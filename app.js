@@ -43,26 +43,14 @@ for (let i = 0; i < operatorButtons.length; i++) {
     operatorButtons[i].addEventListener("click", function() {
       operatorFunction(this.textContent);
       activeInputfield=inputField2
-      // Find highlighted and remove its class
 var highlighted = document.querySelector(".highlighted");
       highlighted.classList.remove("highlighted");
 
-      // Add class to activeInputField
       activeInputfield.classList.add("highlighted")
 
     });
   }
-//-----------------------------------------------
 
-
-//-----------------------------------------------
-
-
-// FUNCTIONALITY OF OPERATOR BUTTONS
-// * Comment this section a bit better, remove the result printing functionality from this section and add functionality to the equals = *
-
-//-----------------------------------------------
-// functionality for equals button 
 
 equalsButton.addEventListener("click", function() { 
     num1 = parseInt(inputField1.textContent);
@@ -93,9 +81,7 @@ equalsButton.addEventListener("click", function() {
 
 function myfunction(){
 
-  // Go and find the highlighted and remove this class from that element
-  // 'this' will represent the clicked element. Therefore we can add the 'highlighted' class to it to select it.
-  // Use 'this' again to use it as an 'activeInputField' so the rest of the code can work with it
+
   var highlighted = document.querySelector(".highlighted");
   highlighted.classList.remove("highlighted");
   this.classList.add("highlighted");
@@ -135,9 +121,6 @@ activeInputfield.textContent = "";
 result1.textContent = "";
 }
 
-//// Eric- when an input is activated the border should be green 
-/// earsing the results 
-///
 
 
 activeInputfield.classList.add("highlighted")
